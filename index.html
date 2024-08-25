@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="calculator">
+        <input id="display" type="text" placeholder="0">
+        <div class="buttons">
+            <button onclick="clickToEnter('7')">7</button>
+            <button onclick="clickToEnter('8')">8</button>
+            <button onclick="clickToEnter('9')">9</button>
+            <button onclick="clickToEnter('+')">+</button>
+            <button onclick="clickToEnter('4')">4</button>
+            <button onclick="clickToEnter('5')">5</button>
+            <button onclick="clickToEnter('6')">6</button>
+            <button onclick="clickToEnter('-')">-</button>
+            <button onclick="clickToEnter('1')">1</button>
+            <button onclick="clickToEnter('2')">2</button>
+            <button onclick="clickToEnter('3')">3</button>
+            <button onclick="clickToEnter('*')">*</button>
+            <button onclick="clickToEnter('0')">0</button>
+            <button onclick="clickToEnter('00')">00</button>
+            <button onclick="clickToEnter('.')">.</button>
+            <button onclick="clickToEnter('/')">/</button>
+            <button onclick="clearResult()" id="clr-btn">C</button>
+            <button onclick="calculateResult()" id="equal-btn">=</button>
+            
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+
+</html>
